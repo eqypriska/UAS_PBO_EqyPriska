@@ -30,7 +30,7 @@ class MahasiswaMandiri extends Mahasiswa
 
     public function hitungTagihanSemester()
     {
-        return $this->tarifUktNominal;
+    return $this->tarifUktNominal + 100000;
     }
 
     public function tampilkanSpesifikasiAkademik()
